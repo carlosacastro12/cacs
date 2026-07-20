@@ -37,7 +37,7 @@ export function ContactSection()
                 </p>
               </div>
             </div>
-            <form action="https://api.web3forms.com/submit" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
               <input type="hidden" name="access_key" value="92afeea6-abcc-407e-a3c6-316bee07de16" />
               <div>
                 <label htmlFor="name" className="mb-2 block text-xs font-medium uppercase tracking-[0.14em] text-foreground/60">
