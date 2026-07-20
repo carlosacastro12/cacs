@@ -77,10 +77,12 @@ export function ContactSection()
               </div>
               <button
                 type="submit"
-                className="w-full rounded-full bg-brand px-6 py-3 text-sm font-medium text-background transition-colors hover:bg-brand/90"
-              >
-                Request a meeting
-              </button>
+                <button
+  type="submit"
+  className="w-full rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white hover:bg-brand/90 transition-colors"
+>
+  Request a meeting
+</button>
             </form>
           </div>
         </div>
