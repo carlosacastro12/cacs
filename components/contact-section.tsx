@@ -1,5 +1,4 @@
 import { Mail, Phone } from "lucide-react"
-
 export function ContactSection() {
   return (
     <section id="contact" className="border-b border-brand/10">
@@ -35,7 +34,6 @@ export function ContactSection() {
                 </p>
               </div>
             </div>
-
             <form action="https://api.web3forms.com/submit" method="POST">
               <input type="hidden" name="access_key" value="92afeea6-abcc-407e-a3c6-316bee07de16" />
               <div>
@@ -58,7 +56,7 @@ export function ContactSection() {
                   id="email"
                   name="email"
                   type="email"
-                  placeholder="jane@company.com"
+                  placeholder="myname@company.com"
                   className="w-full rounded-lg border border-brand/20 bg-background px-4 py-3 text-sm text-foreground outline-none transition-colors placeholder:text-foreground/35 focus:border-brand"
                 />
               </div>
