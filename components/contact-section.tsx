@@ -1,9 +1,7 @@
-'use client';
+import { Mail, Phone } from "lucide-react"
 
-import React from 'react';
-import { Mail, Phone } from "lucide-react";
-
-export function ContactSection()
+export function ContactSection() {
+  return (
     <section id="contact" className="border-b border-brand/10">
       <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
         <div className="rounded-2xl border border-brand/15 bg-brand/[0.05] p-8 md:p-14">
@@ -37,8 +35,8 @@ export function ContactSection()
                 </p>
               </div>
             </div>
-            <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
-              <input type="hidden" name="access_key" value="92afeea6-abcc-407e-a3c6-316bee07de16" />
+
+            <form className="space-y-5">
               <div>
                 <label htmlFor="name" className="mb-2 block text-xs font-medium uppercase tracking-[0.14em] text-foreground/60">
                   Full name
@@ -59,7 +57,7 @@ export function ContactSection()
                   id="email"
                   name="email"
                   type="email"
-                  placeholder="myname@company.com"
+                  placeholder="jane@company.com"
                   className="w-full rounded-lg border border-brand/20 bg-background px-4 py-3 text-sm text-foreground outline-none transition-colors placeholder:text-foreground/35 focus:border-brand"
                 />
               </div>
@@ -77,12 +75,10 @@ export function ContactSection()
               </div>
               <button
                 type="submit"
-                <button
-  type="submit"
-  className="w-full rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white hover:bg-brand/90 transition-colors"
->
-  Request a meeting
-</button>
+                className="w-full rounded-full bg-brand px-6 py-3 text-sm font-medium text-background transition-colors hover:bg-brand/90"
+              >
+                Request a meeting
+              </button>
             </form>
           </div>
         </div>
@@ -90,8 +86,3 @@ export function ContactSection()
     </section>
   )
 }
-
-    </div>
-  )
-}
-
