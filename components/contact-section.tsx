@@ -1,6 +1,9 @@
-import { Mail, Phone } from "lucide-react"
-export function ContactSection() {
-  return (
+'use client';
+
+import React from 'react';
+import { Mail, Phone } from "lucide-react";
+
+export function ContactSection()
     <section id="contact" className="border-b border-brand/10">
       <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
         <div className="rounded-2xl border border-brand/15 bg-brand/[0.05] p-8 md:p-14">
